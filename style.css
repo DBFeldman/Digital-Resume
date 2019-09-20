@@ -1,0 +1,151 @@
+html {
+    margin: 0px;
+    background-color: rgb(209, 202, 202);
+}
+
+body {
+    margin: 0px;
+}
+
+/*header*/
+
+.header-name {
+    color: rgb(207, 211, 14);
+    background-color: rgb(128, 9, 118);
+    display: block;
+    text-align: center;
+    margin: 0px;
+}
+
+.contact-information{
+    display: flex; 
+}
+
+.contact-information p{
+    background-color: rgb(128, 9, 118);
+    color: rgb(207, 211, 14);
+    text-align: center;
+    width: 50%;
+    margin: 0px;
+    padding: 0;
+
+}
+
+/*navigation bar*/
+
+.navigation {
+    text-align: center;
+}
+
+.navigation li, .navigation a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(63, 59, 88);
+    display: inline;
+    padding: 0px 10px;
+}
+
+
+/*education page*/
+
+/*main*/
+.education div {
+    font-size: 20px;
+    background-color: rgb(200, 186, 186);
+    color: black;
+}
+
+/*workhistory page*/
+
+/*main*/
+.workhistory-main {
+    font-size: 20px;
+    background-color: rgb(200, 186, 186);
+    color: black;
+    padding: 1px;
+}
+
+.teaching-experience, .retail-experience {
+    border: 2px black;
+    background-color: white;
+    margin: 10px 20%;
+    
+}
+
+.teaching-experience h1, .retail-experience h1 {
+    text-align: center;
+}
+
+/*media page*/
+
+/*anchor player*/
+.anchor-intro {
+    text-align: center;
+    font-size: 20px;
+}
+
+.youtube-intro {
+    text-align: center;
+    font-size: 20px;
+}
+
+.youtube-player {
+    text-align: center;
+}
+
+/*form*/
+
+form {
+    margin: 0 auto;
+    width: 50%;
+}
+
+form div {
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+}
+
+input, textarea {
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input {
+    height: 2em;
+}
+
+textarea {
+    vertical-align: top;
+    height: 10em;
+}
+
+/*submit-button*/
+
+button {
+    margin-left: 50%; 
+}
+
+.submit-button {
+    color: white;
+    background: #979695;
+}
+
+.submit-button[disabled] {
+    cursor: not-allowed;
+}
+
+.submit-button[active] {
+    cursor: pointer;
+}
+
+.adblock-message {
+    text-align: center;
+    margin: 0 0 0 75px ;
+}

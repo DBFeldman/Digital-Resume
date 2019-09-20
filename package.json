@@ -1,0 +1,17 @@
+{
+  "name": "digitalresume",
+  "version": "1.0.0",
+  "description": "My personal resume website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Daniel Feldman",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.4.1"
+  }
+}
